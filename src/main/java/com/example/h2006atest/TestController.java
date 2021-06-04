@@ -15,12 +15,14 @@ public class TestController {
 
     @RequestMapping("test")
     public String test(){
-        return "test----1";
+        return "test--00000--1";
     }
 
     @RequestMapping("test2")
     public String test2(){
-        return "test----2---张三111";
+
+        return "test----2---张三-------";
+
     }
 
     @RequestMapping("test3")
