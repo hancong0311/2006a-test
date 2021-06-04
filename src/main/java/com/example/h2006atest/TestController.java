@@ -25,6 +25,6 @@ public class TestController {
 
     @RequestMapping("test3")
     public String test3(){
-        return "test----3----李四";
+        return "test----3----------李四";
     }
 }
