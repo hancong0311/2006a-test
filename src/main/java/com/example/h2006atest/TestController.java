@@ -9,6 +9,9 @@ import org.springframework.web.bind.annotation.RestController;
  * @Auther:
  * @Version: 1.0
  * @create 2021/6/4 9:34
+ *
+ *
+ *
  */
 @RestController
 public class TestController {
@@ -16,5 +19,10 @@ public class TestController {
     @RequestMapping("test")
     public String test(){
         return "test----1";
+    }
+
+    @RequestMapping("test2")
+    public String test2(){
+        return "test----2---张三";
     }
 }
