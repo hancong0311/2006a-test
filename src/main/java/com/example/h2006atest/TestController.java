@@ -16,7 +16,7 @@ public class TestController {
 
     @RequestMapping("test")
     public String test(){
-        return "test--00000--1------";
+        return "test--00000--1---dd---";
     }
 
     @RequestMapping("test2")
