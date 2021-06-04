@@ -18,6 +18,11 @@ public class TestController {
         return "test----1";
     }
 
+    @RequestMapping("test2")
+    public String test2(){
+        return "test----2---张三";
+    }
+
     @RequestMapping("test3")
     public String test3(){
         return "test----3----李四";
